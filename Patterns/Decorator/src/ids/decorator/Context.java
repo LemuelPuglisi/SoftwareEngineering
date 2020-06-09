@@ -10,17 +10,15 @@ import java.util.Scanner;
 public class Context {
 
     public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
-        Sellable concertTicket = new Ticket();
+
+        TicketVendor seller = new TicketVendor();
+        Sellable concertTicket = seller.sellTicket();
 
         System.out.println("How many coupons do you have?");
         int couponsQuantity = input.nextInt();
 
-        for (int i = 0; i < couponsQuantity; ++i) {
-            concertTicket = new Coupon(concertTicket);
-        }
-
+        concertTicket = seller.applyCoupons(concertTicket, couponsQuantity);
         System.out.println("Ticket price is " + concertTicket.getPrice() + " $");
     }
 
