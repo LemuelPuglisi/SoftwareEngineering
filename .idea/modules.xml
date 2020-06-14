@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Patterns/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/Patterns/Decorator/Decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Patterns/Mediator/Mediator.iml" filepath="$PROJECT_DIR$/Patterns/Mediator/Mediator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SoftwareEngineering.iml" filepath="$PROJECT_DIR$/.idea/SoftwareEngineering.iml" />
+    </modules>
+  </component>
+</project>
